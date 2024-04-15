@@ -6,7 +6,6 @@ import { StatusCodes } from "http-status-codes";
 
 interface ICidade {
   name: string;
-  estado: string;
 }
 
 export const createValidation = validation((getSchema) => ({
